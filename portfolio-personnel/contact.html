@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact • Portfolio Personnel</title>
+<meta name="description" content="Contactez‑moi pour discuter de vos idées et projets." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+
+</head>
+<body data-page="Contact">
+  <header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-bold">Ouali</span> <span class="brand-thin">Esaïs</span></a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="index.html" data-nav="Accueil">Accueil</a>
+      <a href="about.html" data-nav="À propos">À propos</a>
+      <a href="projects.html" data-nav="Projets">Projets</a>
+      <a href="skills.html" data-nav="Compétences">Compétences</a>
+      <a href="contact.html" data-nav="Contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="contact-hero">
+      <div class="container">
+        <h2>Vous avez un <span class="accent">projet en tête</span> ?</h2>
+        <p>N'hésitez pas à me <strong>contacter</strong>.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="prenom">Votre prénom</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Jane" required />
+              <small class="error"></small>
+            </div>
+            <div class="form-field">
+              <label for="nom">Votre nom</label>
+              <input type="text" id="nom" name="nom" placeholder="Doe" required />
+              <small class="error"></small>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="email">Votre email</label>
+            <input type="email" id="email" name="email" placeholder="exemple@mail.com" required />
+            <small class="error"></small>
+          </div>
+          <div class="form-field">
+            <label for="sujet">Votre sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Développement d'un site vitrine" required />
+            <small class="error"></small>
+          </div>
+          <div class="form-field">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="7" placeholder="Décrivez brièvement votre besoin…" required></textarea>
+            <small class="error"></small>
+          </div>
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+          <p id="form-success" class="form-success" role="status" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Designed by <span id="designer-name">Esaïs</span> with HTML • CSS • JS</p>
+    <p>Tous droits réservés — 2025</p>
+  </div>
+</footer>
+
+</body>
+</html>

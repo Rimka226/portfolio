@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Compétences • Portfolio Personnel</title>
+<meta name="description" content="Mes hard skills et soft skills présentés de manière claire." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+
+</head>
+<body data-page="Compétences">
+  <header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-bold">NOM</span> <span class="brand-thin">+ PRENOM</span></a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="index.html" data-nav="Accueil">Accueil</a>
+      <a href="about.html" data-nav="À propos">À propos</a>
+      <a href="projects.html" data-nav="Projets">Projets</a>
+      <a href="skills.html" data-nav="Compétences">Compétences</a>
+      <a href="contact.html" data-nav="Contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title center">Mes Compétences</h2>
+
+        <div class="skills-grid">
+          <div class="skills-box">
+            <h3>Soft Skills</h3>
+            <ul class="progress-list">
+              <li><span>Gestion de projet</span><progress max="100" value="85"></progress></li>
+              <li><span>Résolution de problème</span><progress max="100" value="75"></progress></li>
+              <li><span>Adaptabilité</span><progress max="100" value="90"></progress></li>
+            </ul>
+          </div>
+          <div class="skills-box">
+            <h3>Hard Skills</h3>
+            <ul class="progress-list">
+              <li><span>HTML</span><progress max="100" value="85"></progress></li>
+              <li><span>CSS</span><progress max="100" value="80"></progress></li>
+              <li><span>JavaScript</span><progress max="100" value="70"></progress></li>
+              <li><span>VS Code</span><progress max="100" value="90"></progress></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Designed by <span id="designer-name">[votre prénom]</span> with HTML • CSS • JS</p>
+    <p>Tous droits réservés — 2025</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Accueil • Portfolio Personnel</title>
+<meta name="description" content="Portfolio personnel – Développeur en devenir, passionné par le web et le design." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+
+</head>
+<body data-page="Accueil">
+  <header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-bold">Esaïs</span> <span class="brand-thin">Ouali</span></a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="index.html" data-nav="Accueil">Accueil</a>
+      <a href="about.html" data-nav="À propos">À propos</a>
+      <a href="projects.html" data-nav="Projets">Projets</a>
+      <a href="skills.html" data-nav="Compétences">Compétences</a>
+      <a href="contact.html" data-nav="Contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Je suis <span class="accent">Esaïs</span>, Développeur en devenir<br/>passionné par le web et le design !</h1>
+          <p class="lead">Étudiant en développement web, je conçois des interfaces modernes, accessibles et performantes.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="projects.html">Voir mes projets</a>
+            <a class="btn btn-outline" href="about.html">En savoir plus</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/developer.jpg" alt="Illustration développeur au bureau" />
+        </div>
+      </div>
+    </section>
+
+    <section class="home-cards">
+      <div class="container card-grid">
+        <a class="card" href="about.html">
+          <h3>À propos</h3>
+          <p>Découvrez mon parcours, mes objectifs et ce qui me motive au quotidien.</p>
+        </a>
+        <a class="card" href="projects.html">
+          <h3>Projets</h3>
+          <p>Mini‑jeux et interfaces interactives en HTML, CSS et JavaScript.</p>
+        </a>
+        <a class="card" href="skills.html">
+          <h3>Compétences</h3>
+          <p>Mes hard skills (HTML, CSS, JS) et soft skills (gestion, résolution…).</p>
+        </a>
+        <a class="card" href="contact.html">
+          <h3>Contact</h3>
+          <p>Vous avez un projet en tête ? Parlons‑en !</p>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Designed by <span id="designer-name">Esaïs</span> with HTML • CSS • JS</p>
+    <p>Tous droits réservés — 2025</p>
+  </div>
+</footer>
+
+</body>
+</html>
